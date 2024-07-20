@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Asserts/style.css">
+    <link rel="stylesheet" href="./function.js">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navcont">
+            <p class="welcome">Log in to get started</p>
+            <div class="menu">
+                <input  placeholder="Enter your id" type="email" name="" id="userEmail">
+                <input placeholder="Enter your Password" type="password" name="" id="userPassword">
+                 <i  onclick="authentication()" class="ri-arrow-right-line"></i>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <div class="mainPage">
+        <div class="userInfo">
+            <div>
+                <h2>Current blance</h2>
+                <h5>As of 05/11/2024</h5>
+            </div>
+            <div>
+                <h1 class="initial__blance">0000$</h1>
+            </div>
+        </div>
+
+        
+        <div class="mainPageSpace">
+            <div class="transactionHistory">
+                <div class="withdraw">
+                    <div class="withdrawPara"><h4  class="withdrawline">withdrawal</h4></div>
+                    <div class="withdrawDate"><h4 >20/04/2024</h4></div>
+                    <div class="withdrawalValue"><h2 >0000$</h2></div>
+                </div>
+            </div>
+            <div class="moneyColurm">
+                <div class="transferMoney_space">
+                    <div class="transferMoney">
+                        <h2>Transfer money</h2>
+                        <div class="transaccontent">
+                            <input class="inputValiedEmail" type="email" name="" id="">
+                            <input class="inputTransferAmount" type="number" name="" id="">
+                            <p onclick="moneyTransfer()" class="calculateArrow"><i  class="ri-arrow-right-line"></i></p>
+                        </div>
+                        <div class="nameSpace">
+                            <label for="">Transfer to</label>
+                            <label for="">Amount</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="request_space">
+                    <div class="requestMoney">
+                        <h2>Request Loan</h2>
+                        <div class="requestcontent">
+                            <input type="number" name="" id="reqamt">
+                            <p class="reqamtcalculate" onclick="reqLoanProscess()"><i class="ri-arrow-right-line"></i></p>
+                        </div>
+                        <div class="reqNameSpace">
+                            <label for="">Amount</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="closeAcc_space">
+                    <div class="closeAcc">
+                        <h2>Close account</h2>
+                        <div class="closeAccContent">
+                            <input class="inputValiedEmailClose" type="email" name="" id="">
+                            <input class="inputValiedPasswordClose type="password" name="" id="">
+                            <p class="closeAccArrow"><i class="ri-arrow-right-line"></i></p>
+                        </div>
+                        <div class="nameSpace">
+                            <label for="">User Acc</label>
+                            <label for="">Pin</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Script/function.js"></script>
+</body>
+</html>

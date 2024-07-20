@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    background-color: #f3f3f3;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+.navcont{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.navcont p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.menu input{
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: skyblue;
+}
+.menu i{
+    width: 30px;
+    text-align: center;
+    font-size:20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: skyblue;
+    /* background-color: black; */
+}
+.userInfo{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.mainPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: tomato; */
+    transition: 0.6s;
+    opacity: 0;
+}
+.mainPageSpace{
+    width: 80%;
+    height: 90%;
+     border-radius: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    /* background-color: yellow; */
+}
+.transactionHistory{
+    width: 60%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    overflow:scroll ;
+}
+.withdraw{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-bottom: #C7374A solid 2px;
+    /* backdrop-filter: 2px 0px 2px red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 5px;
+    opacity: 1;
+    
+}
+.withdrawPara{
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(223, 67, 67);
+    border-radius: 10px;
+}
+.withdrawDate{
+    font-size: 15px;
+}
+.moneyColurm{
+    width: 44%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+}
+.transferMoney_space{
+    height: 31%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 253, 36);
+}
+.transferMoney{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: #C7374A; */
+}
+.inputValiedEmail{
+    width: 30%;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.inputTransferAmount{
+    width: 30%;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.transaccontent{
+    display: flex;
+    justify-content: space-around;
+}
+.calculateArrow{
+    width: 10%;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+}
+.nameSpace{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    font-weight: 700;
+}
+.request_space{
+    height: 31%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(62, 255, 62) ;
+}
+.requestMoney{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.requestcontent h2{
+    color: black;
+}
+.requestMoney input{
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.requestcontent{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.requestcontent p{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.reqNameSpace{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    font-weight: 700
+}
+.closeAcc_space{
+    height: 31%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(236, 59, 59);
+}
+.closeAcc{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputValiedEmailClose{
+    width: 30%;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.inputValiedPasswordClose {
+    width: 30%;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.closeAccContent{
+    display: flex;
+    justify-content: space-around;
+}
+.closeAccArrow{
+    width: 10%;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.showHistory{
+    color: #C7374A;
+}
+.loanDiv{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-bottom:rgb(62, 255, 62) solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.loanPara {
+    padding: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    background-color:rgb(62, 255, 62);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+@media(max-width:1200px){
+    .navcont p{
+        font-size: 20px;
+    }
+    .menu input{
+        font-size: 20px;
+    }
+    .menu i{
+        font-size: 25px;;
+    }
+    .userInfo {
+        height: 100px;
+    }
+    .mainPageSpace {
+        width: 89%;
+        height: 50%;
+    }
+    .mainPage{
+        justify-content: start;
+    }
+}
+@media(max-width:600px){
+    .navcont{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .menu{
+        gap: 40px;
+    }
+    .menu input{
+        width: 150px;
+    }
+    .menu i{
+        display: none;
+    }
+} */
