@@ -15,7 +15,7 @@ let user1 = {
   movements: [],
 };
 let user2 = {
-  email: "sk@",
+  email: "user1@gmail.com",
   password: 1,
   movements: [],
 };
@@ -39,15 +39,15 @@ function authentication() {
       logInPage.style.opacity = 1;
       historyDiv.style.opacity = 0;
 
-      if (userDetailes[index].email == "thiru@") {
+      if (userDetailes[index].email == "user@gmail.com") {
         amount.innerHTML = "3000$";
-        welcomName.innerHTML = "Welcome back, Thiru ";
-      } else if (userDetailes[index].email == "sk@gmail.com") {
+        welcomName.innerHTML = "Welcome back, user  ";
+      } else if (userDetailes[index].email == "user1@gmail.com") {
         amount.innerHTML = "4000$";
-        welcomName.innerHTML = "Welcome back, Sk";
+        welcomName.innerHTML = "Welcome back, user 1";
       } else {
         amount.innerHTML = "5000$";
-        welcomName.innerHTML = "Welcome back, Aravind";
+        welcomName.innerHTML = "Welcome back, user 2";
       }
 
       return;
